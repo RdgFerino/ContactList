@@ -25,10 +25,83 @@ class MainActivity : AppCompatActivity() {
 
 val contacts = listOf(
     Contact(
-        "Raoni",
+        "Richard",
         "(+351) 924589652",
         R.drawable.sample10
-        ),
-
-
-    )
+    ),
+    Contact(
+        "Marcelo",
+        "(+351) 952987456",
+        R.drawable.sample12
+    ),
+    Contact(
+        "Bruno",
+        "(+351) 982458793",
+        R.drawable.sample6
+    ),
+    Contact(
+        "José",
+        "(+351) 913258745",
+        R.drawable.sample10
+    ),
+    Contact(
+        "Júlia",
+        "(+351) 935698752",
+        R.drawable.sample1
+    ),
+    Contact(
+        "Margarida",
+        "(+351) 924658974",
+        R.drawable.sample16
+    ),
+    Contact(
+        "Bruna",
+        "(+351) 931258963",
+        R.drawable.sample15
+    ),
+    Contact(
+        "Olívia",
+        "(+351) 914587896",
+        R.drawable.sample5
+    ),
+    Contact(
+        "Júnior",
+        "(+351) 927854214",
+        R.drawable.sample12
+    ),
+    Contact(
+        "Fred",
+        "(+351) 928547123",
+        R.drawable.sample9
+    ),
+    Contact(
+        "Camila",
+        "(+351) 924521458",
+        R.drawable.sample7
+    ),
+    Contact(
+        "Denise",
+        "(+351) 924589652",
+        R.drawable.sample3
+    ),
+    Contact(
+        "Leonardo",
+        "(+351) 915874569",
+        R.drawable.sample2
+    ),
+    Contact(
+        "Pedro",
+        "(+351) 914589652",
+        R.drawable.sample14
+    ),
+    Contact(
+        "Márcia",
+        "(+351) 924589652",
+        R.drawable.sample4
+    ),
+    Contact(
+        "Silvia",
+        "(+351) 924589652",
+        R.drawable.sample13
+    ),
+)
