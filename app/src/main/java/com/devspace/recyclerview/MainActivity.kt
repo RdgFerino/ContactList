@@ -1,5 +1,6 @@
 package com.devspace.recyclerview
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
@@ -39,10 +40,17 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        adapter.setonClickListener { contact ->
+            val intent = Intent(this, ContactDetailActivity::class.java)
+            intent.putExtra("name", contact.name)
+            intent.putExtra("phone", contact.phone)
+            intent.putExtra("icon", contact.icon)
+            startActivity(intent)
+        }
     }
 }
 
-val contacts = listOf(
+private val contacts = listOf(
     Contact(
         "Richard",
         "(+351) 924589652",
